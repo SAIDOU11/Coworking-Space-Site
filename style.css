@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  padding: 0;
+  background-color: #282828;
+  color: whitesmoke;
+  height: 150px;
+  width: 100%;
+}
+
+nav {
+  padding: 10px 0;
+}
+
+.item-img {
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+  padding: 25px;
+}
+
+li {
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+i {
+  font-size: 20px;
+}
+
+section h1 {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 30px 25px;
+}
+
+section p {
+  font-size: 18px;
+  margin: 15px 25px;
+}
