@@ -27,7 +27,6 @@ nav {
 }
 
 .img-banner {
-  display: inline-block;
   position: absolute;
   top: 0;
   left: 0;
@@ -38,7 +37,6 @@ nav {
 
 ul {
   display: flex;
-  /* justify-content: start; */
   align-items: center;
   gap: 10px;
   list-style: none;
@@ -68,7 +66,40 @@ section h1 {
   margin: 30px 25px;
 }
 
+.caption {
+  display: flex;
+  justify-content: space-between;
+}
+
 section p {
   font-size: 18px;
   margin: 15px 25px;
+}
+
+button {
+  align-self: center;
+  border: none;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px 15px;
+  margin-right: 25px;
+  font-size: 18px;
+}
+
+.chatbox-bg {
+  display: flex;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #dda15e;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #999;
+}
+
+.chatbox-img {
+  margin: auto;
+  width: 50%;
 }
