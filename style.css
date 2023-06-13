@@ -17,14 +17,28 @@ nav {
   padding: 10px 0;
 }
 
+.item {
+  position: relative;
+}
+
 .item-img {
   display: block;
   width: 100%;
 }
 
+.img-banner {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #cd6858;
+  color: whitesmoke;
+  padding: 10px;
+}
+
 ul {
   display: flex;
-  justify-content: start;
+  /* justify-content: start; */
   align-items: center;
   gap: 10px;
   list-style: none;
@@ -38,6 +52,10 @@ li {
 .logo {
   font-size: 18px;
   font-weight: 700;
+}
+
+.align-right {
+  margin: auto 0 auto auto;
 }
 
 i {
